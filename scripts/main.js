@@ -1,7 +1,7 @@
 
 const formulario1 = document.querySelector(".pepe")
 const modal = document.querySelector("#modal_suscriber")
-const spanAlert = document.querySelector("#Error-Message")
+const spanAlert = document.querySelector(".Error-Message")
 const imputAlert = document.querySelector(".form-control")
 console.log(formulario1); 
 
@@ -15,13 +15,11 @@ function correo(e){
     let arrayemail = email.split("@")
 
     if (email.includes("@") && arrayemail[1].includes(".") && arrayemail.length<=2) {
-    /* alert("correro valido"); */
     abrircerrarmodal()
+    spanAlert.classList.add('d-none')
         }
     else {
-            /* alert("correro no valido") */
-            imputAlert.clasList.add("inputInvalid")
-            spanAlert.clasList.remove("hidden")
+        spanAlert.classList.remove('d-none')
     }
 }
 

@@ -63,9 +63,9 @@ li{
 
 @media (min-width:768px) {
     .card-container{
-        max-width: 900px;
+        max-width: 2000px;
         height: 500px;
-        margin-top: 2rem ;
+        margin-top: 4rem ;
     }
 
     .img-fluid{
@@ -79,7 +79,7 @@ li{
     }
 
     .btn{
-        margin-right: 2rem;
+        margin-right: 5rem;
         border-radius: 10px;
     }
 
@@ -98,8 +98,8 @@ li{
 
 .modal-boddy{
     background-color: white;
-    height: 5000px;
-    border-radius: 16px;
+    height: 500px;
+    border-radius:6px;
 }
 
 .modal_content{
@@ -111,15 +111,15 @@ li{
 .boton-modal{
     background-color: hsl(235, 18%, 26%);
     color: white;
-    margin-left: 4rem; 
+    margin-left: 4srem; 
     height: 3rem;
-    width: 28rem;
-    border-radius: 16px;
+    width: 29rem;
+    border-radius: 10px;
     margin-top: 3rem;
     margin-right: 1rem;
     text-align: center;
     margin: 0 auto;
-}
+} 
 
 h2{
     margin-top: 2rem;
@@ -141,4 +141,3 @@ h2{
 .inputInvalid{
     background-color: rgba(255, 0, 0, 0.253);
 }
-
